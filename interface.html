@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<title>Application Form</title>
+</head>
+<body>
+    <div class="header">
+         <h2>Application Form</h2>
+    </div>
+    <div class="form area">
+        <form action="action_page.py" method="post">
+        	<div>
+        		<label>Name:</label>
+        		<input type="text" name="applicant_name" placeholder="your full name">
+        	</div>
+        	<div>
+        		<label>e-mail:</label>
+        		<input type="email" name="applicant_email" placeholder="you@example.com">
+        	</div>
+        	<div>
+        		<label>Phone No:</label>
+        		<input type="tel" name="phone_no" placeholder="07xx xx xx xx">
+        	</div>
+        	<div>
+        		<label for="work">Work Experience:</label>
+        		<textarea id="work" name="work_experience" placeholder="list your work experince here"></textarea>
+        	</div>
+        	<div>
+        		<label for="edu">Education:</label>
+        		<textarea id="edu" name="education" placeholder="list your educational background here"></textarea>
+        	</div>
+        	<div>
+        		<label for="ref">References:</label>
+        		<textarea id="ref" name="references" placeholder="put your references here"></textarea>
+        	</div>
+        	<div>
+        		<label for="skills">Special Skills:</label>
+        		<textarea id="skills" name="skills" placeholder="Any special skills you might have"></textarea>
+        	</div>
+        	<div>
+        		<label>Link to your work:</label>
+        		<input type="text" name="link" placeholder="eg github repo">
+        	</div>
+        	<div class="button">
+        		<button type="submit">Submit Application</button>
+        	</div>
+
+
+        </form>
+    </div>
+    <div class="left_sidebar"></div>
+    <div class="right-sidebar"></div>
+
+</body>
+</html>
